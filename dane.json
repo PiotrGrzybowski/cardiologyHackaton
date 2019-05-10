@@ -1,0 +1,514 @@
+{
+   "lp":{
+      "0":1,
+      "1":2,
+      "2":3,
+      "3":4,
+      "4":5,
+      "5":6
+   },
+   "cholesterol całkowity (mmol\/l)":{
+      "0":3.5,
+      "1":3.6,
+      "2":3.7,
+      "3":5.7,
+      "4":5.5,
+      "5":4.2
+   },
+   "cholesterol całkowity różnica (mmol\/l)":{
+      "0":"",
+      "1":"0.1",
+      "2":"0.1",
+      "3":"2.0",
+      "4":"-0.2",
+      "5":"-1.3"
+   },
+   "cholesterol całkowity odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"9.615 %",
+      "4":"5.769 %",
+      "5":"w normie"
+   },
+   "HDL (mmol\/l)":{
+      "0":1.3,
+      "1":1.3,
+      "2":1.3,
+      "3":1.3,
+      "4":1.3,
+      "5":1.3
+   },
+   "HDL różnica (mmol\/l)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "HDL odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "LDL (mmol\/l)":{
+      "0":1.8,
+      "1":1.8,
+      "2":1.8,
+      "3":1.8,
+      "4":1.8,
+      "5":1.8
+   },
+   "LDL różnica (mmol\/l)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "LDL odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "trójglicerydy (mmol\/l)":{
+      "0":1.7,
+      "1":1.7,
+      "2":1.7,
+      "3":1.7,
+      "4":1.7,
+      "5":1.7
+   },
+   "trójglicerydy różnica (mmol\/l)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "trójglicerydy odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "hemoglobina (mikrolitr)":{
+      "0":5.0,
+      "1":3.5,
+      "2":3.0,
+      "3":3.2,
+      "4":3.0,
+      "5":3.7
+   },
+   "hemoglobina różnica (mikrolitr)":{
+      "0":"",
+      "1":"-1.5",
+      "2":"-0.5",
+      "3":"0.2",
+      "4":"-0.2",
+      "5":"0.7"
+   },
+   "hemoglobina odchylenie od średniej":{
+      "0":"w normie",
+      "1":"-16.667 %",
+      "2":"-28.571 %",
+      "3":"-23.81 %",
+      "4":"-28.571 %",
+      "5":"-11.905 %"
+   },
+   "hematokryt (%)":{
+      "0":42,
+      "1":43,
+      "2":48,
+      "3":47,
+      "4":49,
+      "5":44
+   },
+   "hematokryt różnica (%)":{
+      "0":"",
+      "1":"1",
+      "2":"5",
+      "3":"-1",
+      "4":"2",
+      "5":"-5"
+   },
+   "hematokryt odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "WBC (mikrolitr)":{
+      "0":7800,
+      "1":7800,
+      "2":7800,
+      "3":7500,
+      "4":8000,
+      "5":8200
+   },
+   "WBC różnica (mikrolitr)":{
+      "0":"",
+      "1":"0",
+      "2":"0",
+      "3":"-300",
+      "4":"500",
+      "5":"200"
+   },
+   "WBC odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "OB. (mm\/h)":{
+      "0":3,
+      "1":3,
+      "2":3,
+      "3":3,
+      "4":3,
+      "5":3
+   },
+   "OB. różnica (mm\/h)":{
+      "0":"",
+      "1":"0",
+      "2":"0",
+      "3":"0",
+      "4":"0",
+      "5":"0"
+   },
+   "OB. odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "CRP (mmol\/l)":{
+      "0":1,
+      "1":1,
+      "2":1,
+      "3":1,
+      "4":1,
+      "5":1
+   },
+   "CRP różnica (mmol\/l)":{
+      "0":"",
+      "1":"0",
+      "2":"0",
+      "3":"0",
+      "4":"0",
+      "5":"0"
+   },
+   "CRP odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "mocznik (mg\/dl)":{
+      "0":2.1,
+      "1":2.1,
+      "2":2.1,
+      "3":2.1,
+      "4":2.1,
+      "5":2.1
+   },
+   "mocznik różnica (mg\/dl)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "mocznik odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "kreatynina (mg\/dl)":{
+      "0":1,
+      "1":1,
+      "2":1,
+      "3":1,
+      "4":1,
+      "5":1
+   },
+   "kreatynina różnica (mg\/dl)":{
+      "0":"",
+      "1":"0",
+      "2":"0",
+      "3":"0",
+      "4":"0",
+      "5":"0"
+   },
+   "kreatynina odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "eGFR (ml\/min)":{
+      "0":88,
+      "1":88,
+      "2":88,
+      "3":88,
+      "4":88,
+      "5":88
+   },
+   "eGFR różnica (ml\/min)":{
+      "0":"",
+      "1":"0",
+      "2":"0",
+      "3":"0",
+      "4":"0",
+      "5":"0"
+   },
+   "eGFR odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "kwas moczowy (mg\/dl)":{
+      "0":4.0,
+      "1":4.5,
+      "2":5.0,
+      "3":5.7,
+      "4":5.5,
+      "5":5.4
+   },
+   "kwas moczowy różnica (mg\/dl)":{
+      "0":"",
+      "1":"0.5",
+      "2":"0.5",
+      "3":"0.7",
+      "4":"-0.2",
+      "5":"-0.1"
+   },
+   "kwas moczowy odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "CKMB ( IU\/I)":{
+      "0":78,
+      "1":85,
+      "2":87,
+      "3":88,
+      "4":89,
+      "5":90
+   },
+   "CKMB różnica ( IU\/I)":{
+      "0":"",
+      "1":"7",
+      "2":"2",
+      "3":"1",
+      "4":"1",
+      "5":"1"
+   },
+   "CKMB odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "INR (1)":{
+      "0":1.0,
+      "1":1.1,
+      "2":1.5,
+      "3":1.8,
+      "4":1.9,
+      "5":1.5
+   },
+   "INR różnica (1)":{
+      "0":"",
+      "1":"0.1",
+      "2":"0.4",
+      "3":"0.3",
+      "4":"0.1",
+      "5":"-0.4"
+   },
+   "INR odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"30.435 %",
+      "3":"56.522 %",
+      "4":"65.217 %",
+      "5":"30.435 %"
+   },
+   "prokalcytonina (mikrogram\/l)":{
+      "0":0.001,
+      "1":0.001,
+      "2":0.001,
+      "3":0.001,
+      "4":0.001,
+      "5":0.001
+   },
+   "prokalcytonina różnica (mikrogram\/l)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "prokalcytonina odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "NT-proBNP (pg\/ml)":{
+      "0":110,
+      "1":108,
+      "2":105,
+      "3":104,
+      "4":102,
+      "5":108
+   },
+   "NT-proBNP różnica (pg\/ml)":{
+      "0":"",
+      "1":"-2",
+      "2":"-3",
+      "3":"-1",
+      "4":"-2",
+      "5":"6"
+   },
+   "NT-proBNP odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "APTT (s)":{
+      "0":28,
+      "1":27,
+      "2":26,
+      "3":24,
+      "4":21,
+      "5":27
+   },
+   "APTT różnica (s)":{
+      "0":"",
+      "1":"-1",
+      "2":"-1",
+      "3":"-2",
+      "4":"-3",
+      "5":"6"
+   },
+   "APTT odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"-7.692 %",
+      "4":"-19.231 %",
+      "5":"w normie"
+   },
+   "fibrynogen (g\/l)":{
+      "0":1.9,
+      "1":1.9,
+      "2":1.9,
+      "3":1.9,
+      "4":1.9,
+      "5":1.9
+   },
+   "fibrynogen różnica (g\/l)":{
+      "0":"",
+      "1":"0.0",
+      "2":"0.0",
+      "3":"0.0",
+      "4":"0.0",
+      "5":"0.0"
+   },
+   "fibrynogen odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   },
+   "AT III (%)":{
+      "0":85,
+      "1":87,
+      "2":90,
+      "3":92,
+      "4":90,
+      "5":84
+   },
+   "AT III różnica (%)":{
+      "0":"",
+      "1":"2",
+      "2":"3",
+      "3":"2",
+      "4":"-2",
+      "5":"-6"
+   },
+   "AT III odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"-1.176 %"
+   },
+   "płyki krwi (mikrolitr)":{
+      "0":175000,
+      "1":179000,
+      "2":176000,
+      "3":176000,
+      "4":175000,
+      "5":179500
+   },
+   "płyki krwi różnica (mikrolitr)":{
+      "0":"",
+      "1":"4000",
+      "2":"-3000",
+      "3":"0",
+      "4":"-1000",
+      "5":"4500"
+   },
+   "płyki krwi odchylenie od średniej":{
+      "0":"w normie",
+      "1":"w normie",
+      "2":"w normie",
+      "3":"w normie",
+      "4":"w normie",
+      "5":"w normie"
+   }
+}
