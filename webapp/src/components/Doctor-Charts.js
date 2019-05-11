@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Col, Row, Input, Modal} from "antd";
+import {Col, Row, Input, Modal, Checkbox} from "antd";
 import pressure from '../assets/data/ciśnienie.png';
 import glucose from '../assets/data/glukoza.png';
 import pulse from '../assets/data/tetno.png';
@@ -13,6 +13,9 @@ export const DoctorCharts = () => {
     const [searchTrigger, setSearchTrigger] = useState(false);
     const [isModalVisible, setModalVisible] = useState(false);
     const [currentModal, setCurrentModal] = useState(null);
+    const [alcohol, setAlcohol] = useState(true);
+    const [tabacco, setTabacco] = useState(true);
+    const [diet, setDiet] = useState(true);
 
     const showModal = (modalImage) => {
         setModalVisible(true);
@@ -62,34 +65,69 @@ export const DoctorCharts = () => {
             <br/>
             {
                 searchTrigger ?
-                    <Row type="flex" justify="center">
-                        <Col span={12}>
-                            <Row type="flex" justify="center">
-                                <Col span={12}>
-                                    {
-                                        chart(pressure)
-                                    }
-                                </Col>
-                                <Col span={12}>
-                                    {
-                                        chart(glucose)
-                                    }
-                                </Col>
-                            </Row>
-                            <Row type="flex" justify="center">
-                                <Col span={12}>
-                                    {
-                                        chart(pulse)
-                                    }
-                                </Col>
-                                <Col span={12}>
-                                    {
-                                        chart(weight)
-                                    }
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row> : null
+                    <>
+                        <Row type="flex" justify="center">
+                            <Col span={20}>
+                                <Row type="flex" justify="center">
+                                    <Col span={12}>
+                                        {
+                                            chart(pressure)
+                                        }
+                                    </Col>
+                                    <Col span={12}>
+                                        {
+                                            chart(glucose)
+                                        }
+                                    </Col>
+                                </Row>
+                                <Row type="flex" justify="center">
+                                    <Col span={12}>
+                                        {
+                                            chart(pulse)
+                                        }
+                                    </Col>
+                                    <Col span={12}>
+                                        {
+                                            chart(weight)
+                                        }
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <br/>
+                        <br/>
+                        <Row type="flex" justify="center">
+                            <Col span={3}>
+                                <Checkbox
+                                    onChange={(e) => {
+                                        setAlcohol(e.target.value)
+                                    }}
+                                    value={alcohol}
+                                    defaultChecked={true}
+                                >
+                                    Spożywałeś alkohol
+                                </Checkbox>
+                            </Col>
+                            <Col span={3}>
+                                <Checkbox
+                                    onChange={(e) => {
+                                        setTabacco(e.target.value)
+                                    }}
+                                    value={tabacco}
+                                    defaultChecked={true}
+                                >Paliłeś tytoń</Checkbox>
+                            </Col>
+                            <Col span={3}>
+                                <Checkbox
+                                    onChange={(e) => {
+                                        setDiet(e.target.value)
+                                    }}
+                                    value={diet}
+                                    defaultChecked={true}
+                                >Odstępstwa od diety</Checkbox>
+                            </Col>
+                        </Row>
+                    </> : null
             }
         </>
     );
