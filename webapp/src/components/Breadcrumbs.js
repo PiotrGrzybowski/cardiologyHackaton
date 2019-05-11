@@ -1,8 +1,8 @@
 import React from "react";
 import {Breadcrumb} from "antd";
-import {Link, withRouter} from "react-router-dom";
+import {withRouter} from "react-router-dom";
 
-const breadcrumbItemMap = {
+const ItemMap = {
     'pacjent': 'Pacjent',
     'lekarz-wykresy': 'Wykresy',
     'lekarz-badania': 'Badania'
@@ -11,7 +11,7 @@ const breadcrumbItemMap = {
 const BreadcrumbsPure = (props) => {
     const {pathname} = props.location;
     const purePathname = pathname.slice(1);
-    const breadcrumbItem = breadcrumbItemMap[purePathname];
+    const breadcrumbItem = ItemMap[purePathname];
 
     return (
         <Breadcrumb style={{ margin: '16px 0' }}>
