@@ -1,0 +1,9 @@
+.doctors-chart {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.doctors-chart--big {
+    max-width: 1200px;
+    max-height: 1200px;
+}
