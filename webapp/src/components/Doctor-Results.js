@@ -60,7 +60,7 @@ export const DoctorResults = () => {
         return (
                 <Col span={8}>
                     <Table
-                        title={() => Object.keys(data)[dataIndex+1].split('(')[0]}
+                        title={() => <div className="table-title">{ Object.keys(data)[dataIndex+1].split('(')[0] }</div>}
                         dataSource={dataSource}
                         columns={columns}
                         pagination={false}
