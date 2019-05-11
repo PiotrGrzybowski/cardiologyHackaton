@@ -58,8 +58,7 @@ export const DoctorResults = () => {
         const dataSource = parseToDataSource(data, dataIndex);
 
         return (
-            <Row type="flex" justify="center">
-                <Col span={12}>
+                <Col span={8}>
                     <Table
                         title={() => Object.keys(data)[dataIndex+1].split('(')[0]}
                         dataSource={dataSource}
@@ -67,7 +66,6 @@ export const DoctorResults = () => {
                         pagination={false}
                     />
                 </Col>
-            </Row>
         )
     }
 
@@ -82,9 +80,13 @@ export const DoctorResults = () => {
 
     return (
         <>
+            <Row type="flex" justify="center" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+
             {
                 tables
             }
+            </Row>
+
         </>
     );
 }
