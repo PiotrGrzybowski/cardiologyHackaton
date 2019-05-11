@@ -5,24 +5,57 @@ const RadioGroup = Radio.Group;
 
 export const Patient = () => {
 
+    const [weight, setWeight] = useState(null);
+    const [pressure, setPressure] = useState(null);
+    const [pulse, setPulse] = useState(null);
+    const [glucose, setGlucose] = useState(null);
     const [badBreath, setBadBreath] = useState(null);
     const [limbEdema, setLimbEdema] = useState(null);
     const [tookMedicines, setTookMedicines] = useState(null);
     const [alcohol, setAlcohol] = useState(null);
 
+    const fields = [
+        weight, pressure, pulse, glucose, badBreath, limbEdema, tookMedicines, alcohol
+    ];
+
     const handleSubmit = (e) => {
         e.preventDefault();
-
-        openNotificationWithIcon('success');
+        if (isFormValid()) {
+            successNotification('success');
+            clearFields();
+        } else {
+            invalidFormNotification('error');
+        }
     }
 
-    const openNotificationWithIcon = (type) => {
+    const isFormValid = () => {
+        return fields.reduce((isValid, field) => isValid && field !== null, true);
+    }
+
+    const clearFields = () => {
+        setWeight(null);
+        setPressure(null);
+        setPulse(null);
+        setGlucose(null);
+        setBadBreath(null);
+        setLimbEdema(null);
+        setTookMedicines(null);
+        setAlcohol(null);
+    }
+
+    const successNotification = (type) => {
         notification[type]({
             message: 'Wysłano pomyślnie!',
             description: 'Twoje wyniki badań zostały pomyślnie wysłane do lekarza.',
         });
     };
 
+    const invalidFormNotification = (type) => {
+        notification[type]({
+            message: 'Wypełnij wszystkie pola!',
+            description: 'Nie udało się wysłać Twoich badań - musisz wypełnić wszystkie z pól',
+        });
+    };
 
     return (
         <>
@@ -32,22 +65,34 @@ export const Patient = () => {
                         <Form.Item
                             label="Waga (80kg)"
                         >
-                            <Input/>
+                            <Input
+                                onChange={(e) => setWeight(e.target.value)}
+                                value={weight}
+                            />
                         </Form.Item>
                         <Form.Item
                             label="Ciśnienie krwi (130/90)"
                         >
-                            <Input/>
+                            <Input
+                                onChange={(e) => setPressure(e.target.value)}
+                                value={pressure}
+                            />
                         </Form.Item>
                         <Form.Item
                             label="Tętno bpm (80)"
                         >
-                            <Input/>
+                            <Input
+                                onChange={(e) => setPulse(e.target.value)}
+                                value={pulse}
+                            />
                         </Form.Item>
                         <Form.Item
                             label="Poziom glukozy"
                         >
-                            <Input/>
+                            <Input
+                                onChange={(e) => setGlucose(e.target.value)}
+                                value={glucose}
+                            />
                         </Form.Item>
                         <Form.Item
                             label="Czy odczywane były duszności?"
