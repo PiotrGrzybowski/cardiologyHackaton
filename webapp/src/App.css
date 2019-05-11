@@ -7,3 +7,13 @@
     max-width: 1200px;
     max-height: 1200px;
 }
+
+.cell--red {
+    color: #ff4d4f;
+    font-weight: 600;
+}
+
+.cell--green {
+    color: #73d13d;
+    font-weight: 600;
+}

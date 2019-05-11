@@ -2,22 +2,13 @@ import React from 'react';
 import {Col, Row, Table} from "antd";
 import data from '../assets/data/dane';
 
-// const dataSourceMock = [{
-//     key: '1',
-//     name: 'Mike',
-//     age: 32,
-//     address: '10 Downing Street'
-// }, {
-//     key: '2',
-//     name: 'John',
-//     age: 42,
-//     address: '10 Downing Street'
-// }];
+const isNegative = (value) => {
+    return String(value)[0] === '-';
+}
 
-//    console.log(Object.keys(data)[dataIndex].split('(')[0]);
-//     console.log('wartosci ', Object.values(data)[dataIndex+1]);
-//     console.log('roznice ', Object.values(data)[dataIndex+2]);
-//     console.log('odchylenie ', Object.values(data)[dataIndex+3]);
+const isPositive = (value) => {
+    return String(value) !== "w normie" && !isNegative(value);
+}
 
 const columns = [{
     title: 'Wartość',
@@ -31,6 +22,15 @@ const columns = [{
     title: 'Odchylenie',
     dataIndex: 'odchylenie',
     key: 'odchylenie',
+    render:  (text, row, index) => {
+        if (isPositive(text)) {
+            return <div className="cell--green">{text}</div>;
+        } else if (isNegative(text)) {
+            return <div className="cell--red">{text}</div>;
+        } else {
+            return <>{text}</>
+        }
+    }
 }];
 
 export const DoctorResults = () => {
